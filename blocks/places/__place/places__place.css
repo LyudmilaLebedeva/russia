@@ -1,0 +1,28 @@
+.places__place {
+  max-width: 984px;
+  display: grid;
+  grid-template-columns: 47.5% 1fr;
+  column-gap: 35px;
+  row-gap: 55px;
+  margin: 0 auto 80px;
+}
+
+.places__place:last-of-type {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 1023px) and (min-width: 624px) {
+  .places__place {
+    max-width: 976px;
+    column-gap: 28px;
+    row-gap: 35px;
+  }
+}
+
+@media screen and (max-width: 623px) {
+  .places__place {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 55px;
+  }
+}

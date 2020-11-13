@@ -1,0 +1,19 @@
+.header__lang {
+  margin-right: 18px;
+  min-width: 30px;
+}
+
+.header__lang:last-of-type {
+  margin: 0;
+}
+
+@media screen and (max-width: 424px) {
+  .header__lang {
+    margin-right: 25px;
+    min-width: unset;
+  }
+  .header__lang:last-of-type {
+    margin: 0;
+  }
+}
+

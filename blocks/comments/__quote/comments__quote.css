@@ -1,0 +1,18 @@
+.comments__quote {
+  font-size: 14px;
+  line-height: 24px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 15px;
+}
+
+@media screen and (max-width: 1023px) {
+  .comments__quote {
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-bottom: 35px;
+    font-size: 16px;
+    line-height: 23px;
+  }
+    
+}

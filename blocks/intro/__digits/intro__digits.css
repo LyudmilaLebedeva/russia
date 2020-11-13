@@ -1,0 +1,14 @@
+.intro__digits {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+@media screen and (max-width: 425px) {
+  .intro__digits {
+    font-size: 12px;
+    line-height: 19px;
+  }
+}

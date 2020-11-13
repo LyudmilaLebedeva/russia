@@ -1,0 +1,12 @@
+.video__text-container {
+  z-index: 1;
+  margin-top: auto;
+  padding-top: calc(56.25% - 198px);
+  width: 100%;
+}
+
+@media screen and (max-width: 1023px) and (min-width: 375px) {
+  .video__text-container {
+    padding-top: calc(56.25% - 161px);
+  }
+}

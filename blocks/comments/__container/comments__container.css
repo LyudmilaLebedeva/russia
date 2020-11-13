@@ -1,0 +1,16 @@
+.comments__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 19px;
+}
+
+@media screen and (max-width: 1023px) {
+  .comments__container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 382px;
+    margin-bottom: -35px;
+  }
+}
